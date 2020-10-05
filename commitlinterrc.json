@@ -1,0 +1,8 @@
+{
+  "types": {
+    "fix": false,
+    "deps": "Novo tipo"
+  },
+  "max-len": 80,
+  "debug": true
+}
