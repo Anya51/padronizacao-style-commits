@@ -1,0 +1,1 @@
+# padronizacao-style-commits
