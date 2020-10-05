@@ -102,6 +102,24 @@ Então temos:
 ```
 npm i git-commit-msg-linter -D
 ```
+#### Configurando
+
+É possível configurar o git-commit-msg-linter como quiser, embora não seja necessário. Para isso, é necessário criar um arquivo com o nome commitlinterrc.json no root do projeto.
+
+commitlinterrc.json
+```
+{
+  "types": {
+    "fix": false,
+    "deps": "Novo tipo"
+  },
+  "max-len": 80,
+  "debug": true
+}
+```
+
+É possível criar novos tipos e também mudar a descrição de tipos já existentes. Além disso, é possível desabilitar alguns tipos.
+
 
 #### Formato
 
@@ -126,6 +144,7 @@ Onde:
  https://gist.github.com/vtenq/7a93687108cb876f884c3ce75a8a8023);
 - [Husky - Github](https://github.com/typicode/husky#readme)
 - [lint-staged - Github](https://github.com/okonet/lint-staged)
+- [git-commit-msg-linter](https://github.com/legend80s/commit-msg-linter)
 - [Git Hooks - Documentação do Git](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 - [Tutorial de Git Hooks pela Hostinger](https://www.hostinger.com.br/tutoriais/como-usar-git-hooks/)
 - [Gitflow Workflow - Atlassian](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
