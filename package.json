@@ -1,0 +1,36 @@
+{
+  "name": "padronizacao-style-commits",
+  "version": "1.0.0",
+  "description": "----",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "standard": "^14.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anya51/padronizacao-style-commits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anya51/padronizacao-style-commits/issues"
+  },
+  "homepage": "https://github.com/Anya51/padronizacao-style-commits#readme"
+}
